@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32" backgroundcolor="#000000">
+ <tileset firstgid="1" name="Tiles2" tilewidth="32" tileheight="32">
+  <image source="Tiles2.png" width="448" height="11544"/>
+  <tile id="2346">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2788">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="sol" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxTZmBgUKYy/smEYAszQ+g/SGKszKjqkeWIxVzM5MmB8C8s9j3lwsTY9AqjmS0K5IsRsI9U/IOM8CA1XkCYjQJ3iwP1SmDRT4mZhMIaG+bAogZZjFBY4vLHYMbY0i8pGD3/4cPsAxw2v0nwKzHphROHGlrkY2q6m97xgi1fYcMA5ipAmQ==
+  </data>
+ </layer>
+ <layer name="sol1-Collision" width="20" height="20">
+  <properties>
+   <property name="" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIPCUCxOPglEwCkbBKMANAD6GBKw=
+  </data>
+ </layer>
+ <layer name="sol2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer name="top" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPuM6FiSkBT7kw8SgYBaNgFIwC+gEAQGkJEQ==
+  </data>
+ </layer>
+ <layer name="top1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer name="top2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer name="cloud" width="20" height="20" opacity="0.53">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANEBFmYBAFYjFh6uhTAvKVgViFRPNw6TMA8g2B2IhE88jVNxQAuXGGC5AbZ7jAcAv70fCmPyAnzPHpISfM8ekhJ8wHMp4Af9MLZQ==
+  </data>
+ </layer>
+</map>
